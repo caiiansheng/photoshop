@@ -1,0 +1,25 @@
+myProps: #自定义的属性和值  
+  filepath: /upload/  
+  cdnPath: http://localhost:8080/
+  arrayProps: 1,2,3,4,5  
+  listProp1:  
+    - name: abc  
+      value: abcValue  
+    - name: efg  
+      value: efgValue  
+  listProp2:  
+    - config2Value1  
+    - config2Vavlue2  
+  mapProps:  
+    key1: value1  
+    key2: value2  
+spring:
+  thymeleaf:
+    cache: false
+    cache-period: 0
+    prefix: classpath:/templates/
+    suffix: .html
+    template:
+      cache: false
+server: 
+  port: 8888
